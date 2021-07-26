@@ -70,6 +70,14 @@
             </a>
           </li>
           <li class="nav-item">
+            <a href="{{ route('zodiac-signs') }}" class="nav-link">
+              <i class="nav-icon fas fa-list"></i>
+              <p>
+                Zodiac Signs
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
             <a href="{{ route('zodiac-calendar') }}" class="nav-link">
               <i class="nav-icon far fa-calendar-alt"></i>
               <p>
@@ -90,14 +98,6 @@
               <i class="nav-icon far fa-chart-bar"></i>
               <p>
                 Yearly Analysis
-              </p>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="{{ route('zodiac-signs') }}" class="nav-link">
-              <i class="nav-icon fas fa-list"></i>
-              <p>
-                Zodiac Signs
               </p>
             </a>
           </li>
